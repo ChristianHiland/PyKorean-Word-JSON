@@ -1,4 +1,4 @@
-Layout = {
+LayoutWords = {
     "English": {
         "hello": "Hello: 안녕하세요",
         "안녕하세요": "안녕하세요: Hello",
@@ -239,7 +239,19 @@ Layout = {
         "english": "영어",
         "japanese": "일본어"
     },
-    "Other Languages": {
-        "Language": "You will replace this like the same layout of the English one, but the words in English you need to put them into your language."
+    "NewLanguageName": {
+        "hello": "This will be in your language, just copy and pase the words, and put them into your language."
+    }
+}
+LayoutLanguage = {
+    "Languages": {
+        "English": {
+            "Words": "English",
+            "Sen": "EnglishSen"
+        },
+        "NewLanguage1": {
+            "Words": "",
+            "Sen": ""
+        }
     }
 }

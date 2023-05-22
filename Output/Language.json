@@ -1,0 +1,12 @@
+{
+    "Languages": {
+        "English": {
+            "Words": "English",
+            "Sen": "EnglishSen"
+        },
+        "NewLanguage1": {
+            "Words": "",
+            "Sen": ""
+        }
+    }
+}
