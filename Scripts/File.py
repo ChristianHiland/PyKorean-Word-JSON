@@ -1,16 +1,5 @@
 import json
-from Input import wordsEnglish, wordsEnglishSen
-
-# The Layout of the dicionary.
-Layout = {
-    "English": {
-        wordsEnglish
-    },
-    "EnglishSen": {
-        wordsEnglishSen
-    }
-}
-
+from Input.words import Layout
 
 def Write(WordOUT):
     with open(WordOUT, "w") as NewFile:

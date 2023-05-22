@@ -1,1 +1,1 @@
-from Input.words import wordsEnglish, wordsEnglishSen
+from Input.words import Layout
