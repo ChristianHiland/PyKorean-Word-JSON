@@ -1,10 +1,8 @@
 import json
-from Input.words import Layout
 
-def Write(WordOUT):
+def Write(WordOUT, Layout):
     with open(WordOUT, "w") as NewFile:
-        json.dump(Layout, NewFile, indent=4)
-
+        json.dump(Layout, NewFile, indent=4, ensure_ascii=False)
 
 def Read(WordOUT):
     print("Reading")

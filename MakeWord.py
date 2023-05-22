@@ -10,4 +10,4 @@ WordOUT = "Output/words.json"
 system("./MakeJSON.sh")
 
 # Writing the JSON.
-Write(WordOUT)
+Write(WordOUT, Layout)
