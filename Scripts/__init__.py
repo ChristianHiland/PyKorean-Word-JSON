@@ -1,1 +1,1 @@
-from Scripts.File import Write, Read
+from Scripts.File import Write, Read, Erase
